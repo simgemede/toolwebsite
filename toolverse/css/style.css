@@ -1,0 +1,99 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================= HEADER ================= */
+
+.header{
+
+background:white;
+
+border-bottom:1px solid #eee;
+
+}
+
+.header .container{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 0;
+
+}
+
+.logo a{
+
+font-size:28px;
+
+font-weight:bold;
+
+text-decoration:none;
+
+color:#222;
+
+}
+
+.nav-list{
+
+display:flex;
+
+list-style:none;
+
+gap:30px;
+
+}
+
+.nav-list a{
+
+text-decoration:none;
+
+color:#444;
+
+font-weight:500;
+
+}
+
+.header-actions{
+
+display:flex;
+
+gap:15px;
+
+}
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+    padding: 100px 0;
+    text-align: center;
+}
